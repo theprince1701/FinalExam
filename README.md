@@ -24,3 +24,8 @@ Now that we are done with the vertex function, we can move onto the fragment sha
 ![d93fb04c9f041298dda0c154d1ccf010](https://user-images.githubusercontent.com/96841021/233697643-25263518-0331-4767-8340-042c8a44072b.png)
 
 The fragment shader is pretty simple, we're calculating a UV offset to scroll the normal maps to add a little bit more detail to our lava. After that, we can set the normal by unpacking the normal map and supplying the uv's we just calculated.
+
+
+![b5eb93f314a3c4fab9626ec2e39e0491](https://user-images.githubusercontent.com/96841021/233697990-cbefa118-19ca-4a18-8bf2-a46cd80600a9.png)
+
+Finally, we have a C# script to handle lerping between different states, and scrolling the normal map. To switch between states, you can press 'Tab' and it'll toggle between the list of states. The states have values for the shaders amplitude and speed, and update them depending on the current state.
