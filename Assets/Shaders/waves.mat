@@ -62,7 +62,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.19999926
+    - _Amplitude: 0.19750689
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -74,10 +74,10 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _ScrollSpeed: 4.35
+    - _ScrollSpeed: 0.07656098
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 9.999952
+    - _Speed: 9.875334
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1

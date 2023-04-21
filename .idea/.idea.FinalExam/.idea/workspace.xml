@@ -24,6 +24,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/FinalExamBuild\FinalExam.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\ledzf\Desktop\FinalExamBuild" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity Editors\2021.3.9f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;E:\Unity Projects\FinalExam&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -62,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682086682926</updated>
       <workItem from="1682086703286" duration="6000" />
-      <workItem from="1682091804724" duration="2135000" />
+      <workItem from="1682091804724" duration="3210000" />
     </task>
     <servers />
   </component>
