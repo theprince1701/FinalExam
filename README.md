@@ -4,9 +4,6 @@
 # Third Party 
 
 
-# Explanations
-
-
 # Lava Shader
 ![cbab4c25da537495b016d5b2a3c940c0](https://user-images.githubusercontent.com/96841021/233696973-c259e305-c9d4-4c9c-a4cd-8f8f3a01ecb1.png)
 ![75918dfd4334e0f5e7a1bd0be626d2bb](https://user-images.githubusercontent.com/96841021/233696976-51232a87-8599-404e-a959-f4eb08592e19.png)
@@ -29,3 +26,9 @@ The fragment shader is pretty simple, we're calculating a UV offset to scroll th
 ![b5eb93f314a3c4fab9626ec2e39e0491](https://user-images.githubusercontent.com/96841021/233697990-cbefa118-19ca-4a18-8bf2-a46cd80600a9.png)
 
 Finally, we have a C# script to handle lerping between different states, and scrolling the normal map. To switch between states, you can press 'Tab' and it'll toggle between the list of states. The states have values for the shaders amplitude and speed, and update them depending on the current state.
+
+# Bloom
+![bloom_off](https://user-images.githubusercontent.com/96841021/233698619-72ede19b-9abe-4683-a8f7-e6145fb598be.png)
+![bloom on](https://user-images.githubusercontent.com/96841021/233698640-84b11b75-a539-4952-b393-c862cc4f782c.png)
+
+Bloom works by doing a downsampling of the screen resolution to create a blur effect and enhance the lighting of the scene.
